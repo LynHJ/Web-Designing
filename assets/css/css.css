@@ -94,9 +94,6 @@ nav ul ul li {
 
 
 
-
-
-
 /* body section setting */
 body {
   margin: 0;
@@ -119,21 +116,36 @@ body {
   margin-top: 30px;
   display: flex;
 	text-align: center;
-  /* margin:20px 40px; */
   padding: 40px;
   align-items: flex-start;
 	}
 
-.flex-container > div3 {
-  background-color: #f1f1f1;
-  width: 1200px;
-  margin:20px 40px;
-  padding: 50px;
-  line-height: 30px;
-  font-size:  20px;
-  }  
+  .flex-container1 {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    margin:20px 90px; 
+    padding: 0 80px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction:row;
+    background-color: #f1f1f1;
+    }
+    
+    .flex-container2 {
+      margin-top: 30px;
+      display: flex;
+      text-align: center;
+      margin:20px 90px; 
+      padding: 0 80px;
+      align-items: flex-start;
+      align-content: stretch;
+      flex-wrap: wrap;
+      flex-direction:row;
+      background-color: #f1f1f1;
+      }
+
   
-.table {align-items: center;}
 
 /* body div1 set */
 
@@ -179,7 +191,15 @@ body {
   margin:20px 20px;
 }
 
-
+/* body Comparisons set */ 
+.flex-container > div3 {
+  background-color: #f1f1f1;
+  width:1200px;
+  margin:10px 10px;
+  text-align: center;
+  flex-wrap: wrap;
+  line-height: 30px;
+  font-size: 22px;}
 
 
 
@@ -261,17 +281,6 @@ body {
   background-color: rgb(188, 210, 232)
 	}
 
-
-
-.flex-container1 {
-  display: flex;
-  text-align: left;
-  flex-wrap: wrap;
-  margin:15px 20px;
-  justify-content: left;
-  background-color: rgb(188, 210, 232)
-  }  
-
 .flex-container > div1 {
   background-color: #f1f1f1;
   width: 100%;
@@ -292,14 +301,16 @@ body {
     
   .flex-container > div3 {
     background-color: #f1f1f1;
-    width: 80%;
-    margin:15px 10px;
-    padding:20px ;
-    text-align: left;
-    line-height: 30px;
-    font-size: 22px;}  
+    width: 100%;
+    margin:1px 5px;
+    padding:5px 10px ; 
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    border-image: 10%;}  
 
-
+ 
 
 .image-container{
   max-width: 100%;
@@ -310,4 +321,31 @@ body {
   font-size:  20px;
   }
 
+/* comparison setting */
+
+
+  .flex-container1 {
+    margin-top: 30px;
+    width: 90%;
+    display: flex; 
+    padding: 0 10px;
+    margin: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction:row;
+    background-color: #f1f1f1;
+    }
+
+    .flex-container2 {
+      margin-top: 30px;
+      width: 90%;
+      align-content: stretch;
+      display: flex; 
+      padding: 0 10px;
+      margin: 10px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      flex-direction:row;
+      background-color: #f1f1f1;
+      }  
 }
