@@ -1,6 +1,8 @@
 # Web Visualization Dashboard(Latitude)
 
 
+## Website Link:  https://lynhj.github.io/Web-Visualization-Dashboard-Latitude-/
+
 ## Background
 
 ![alt text](https://github.com/LynHJ/Web-Designing/blob/3842146701d6eacbb528ae81a07e6ac842cc9fe5/Images/landingResize.png)
@@ -56,7 +58,7 @@ Project
     └── Wind Speed.html
 
 ```
-## Website Link:  https://lynhj.github.io/Web-Visualization-Dashboard-Latitude-/
+
 
 
 
