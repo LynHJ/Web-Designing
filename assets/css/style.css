@@ -1,5 +1,6 @@
 /* content size */ 
 
+
 h1 {
   margin:10px;
   text-align: left;
@@ -7,7 +8,6 @@ h1 {
   line-height: 40px;
   font-family: 'roboto', sans-serif;
   font-style:bold;
-
   color:	#FFFFFF;
 } 
 
@@ -66,7 +66,12 @@ body {
 
 p {text-align:left;}
 
-.image {margin:10px;}
+.image,.image1 {margin:10px;}
+
+.float-item {
+  float: left;
+}
+
 
 
 
@@ -102,7 +107,15 @@ body {
   justify-content: center;
   } 
 
-.image {margin:10px;}
+.image {margin:10px;
+  width: 70%;
+  height:70%;}
 
+.image1 {margin:10px;
+  width:20%;
+  height:20%;}
 }
+
+
+
   
