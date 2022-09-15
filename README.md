@@ -1,4 +1,4 @@
-# Web-Designing
+# Web Visualization Dashboard(Latitude)
 
 
 ## Background
