@@ -17,7 +17,7 @@ Then using Matplotlib to plot the dataset I have received from step1.
 
 Thirdly, I arranged my analyses in "Plots" pages.
 
-### Source
+## Source
 
 The data set comes from OpenWeatherMap API. Database has over 500 cities' weather data.
 
