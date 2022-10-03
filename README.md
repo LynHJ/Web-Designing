@@ -1,7 +1,7 @@
 # Web Visualization Dashboard(Latitude)
 
 
-## Website Link:  https://lynhj.github.io/Web-Visualization-Dashboard-Latitude-/
+## Website Link:  https://lynhj.github.io/WebVisualization-Dashboard/
 
 ## Background
 
