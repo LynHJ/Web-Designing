@@ -1,4 +1,4 @@
-# Web Visualization Dashboard(Latitude)
+# Latitude Dashboard 
 
 
 ## Website Link:  https://lynhj.github.io/WebVisualization-Dashboard/
@@ -50,6 +50,7 @@ Project
 │       ├── LatMaxt.png
 │       └── LatWindSd.png
 ├── index.html
+├── requirements.txt
 └── visulisations
     ├── Cloudiness.html
     ├── Comparisons.html
